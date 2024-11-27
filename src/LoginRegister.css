@@ -1,0 +1,26 @@
+/* Custom styles for Login/Register page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+  }
+  
+  /* Container style for login/register form */
+  .login-register-container {
+    max-width: 400px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive design adjustments */
+  @media (max-width: 600px) {
+    .login-register-container {
+      padding: 20px;
+      width: 80%;
+    }
+  }
+  
+  .alert {
+    font-size: 14px;
+  }
+  
